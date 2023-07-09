@@ -1,6 +1,13 @@
-import "@/styles/global.css";
+import "./global.css";
 import { Metadata } from "next";
+import { Sofia_Sans } from "next/font/google";
 import { ReactNode } from "react";
+
+const Sofia = Sofia_Sans({
+  subsets: ["latin"],
+  variable: "--sofia_sans",
+  weight: ["200", "300", "400"],
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -14,7 +21,7 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={Sofia.className}>{children}</body>
     </html>
   );
 }
