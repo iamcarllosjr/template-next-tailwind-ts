@@ -23,13 +23,13 @@ To run the template, open the terminal in the repository you want and run in you
 
 ```bash
 # Yarn
-yarn create next-app <name-of-your-project> -e https://github.com/iamcarllosjr/template-next-tailwindcss-ts
+yarn create next-app <name-of-your-project> -e https://github.com/iamcarllosjr/template-next-tailwind-ts
 
 # NPM
-npx create-next-app <name-of-your-project> -e https://github.com/iamcarllosjr/template-next-tailwindcss-ts
+npx create-next-app <name-of-your-project> -e https://github.com/iamcarllosjr/template-next-tailwind-ts
 
 # PNPM
-pnpm create next-app <name-of-your-project> -e https://github.com/iamcarllosjr/template-next-tailwindcss-ts
+pnpm create next-app <name-of-your-project> -e https://github.com/iamcarllosjr/template-next-tailwind-ts
 ```
 
 <aside>
