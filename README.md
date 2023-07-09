@@ -3,11 +3,12 @@
 Embedded technology list:
 
 - Typescript
+- TailwindCSS
 - Jest
 - Eslint
 - Testing Library
 - Prettier
-- Prettier TailwindCSS
+- Prettier Tailwind
 - Husky
 - Lint-Staged
 - Import Helpers
